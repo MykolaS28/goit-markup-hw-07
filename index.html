@@ -43,29 +43,101 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open js-open-menu" type="button">
+          <svg class="burger" width="32" height="22">
+            <use href="./images/icon.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="contact list">
           <ul class="list contact-list">
             <li>
-              <a
-                class="contact-link link header-nav-link"
-                href="mailto:info@devstudio.com"
+              <a class="contact-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a
-                class="contact-link link header-nav-link"
-                href="tel:+110001111111"
+              <a class="contact-link link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
       </div>
+      <!-- Modal mobile -->
+      <div class="modal-mobile js-menu-container">
+        <div class="mobile-container">
+          <button class="btn-mobile js-close-menu" type="button">
+            <svg class="modal-close" width="8" height="8">
+              <use href="./images/icon.svg#icon-modal"></use>
+            </svg>
+          </button>
+          <div class="contact-modal">
+            <ul class="list mobile-link-list">
+              <li>
+                <a class="link mobile-link" href="./index.html">Studio</a>
+              </li>
+              <li>
+                <a class="link mobile-link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="link mobile-link mobile-curent" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <address>
+            <ul class="list mobile-contact">
+              <li>
+                <a
+                  class="link mobile-link mobile-curent"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="link mobile-email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="list mobile-social-list">
+            <li class="social-list-item">
+              <a href="" class="btn-link">
+                <svg class="teamsvg" width="24" height="24">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="btn-link">
+                <svg class="teamsvg" width="24" height="24">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="btn-link">
+                <svg class="teamsvg" width="24" height="24">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="btn-link">
+                <svg class="teamsvg" width="24" height="24">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Section 1 -->
-      <section class="section-order first-s">
+      <!-- <section class="section-order first-s">
         <div class="container">
           <h1 class="sectionh order-container">
             Effective Solutions for Your Business
@@ -78,9 +150,9 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- Section 2 -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Section2</h2>
           <ul class="list section-info">
@@ -134,9 +206,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Section 3 -->
-      <section class="section sectoin-what">
+      <!-- <section class="section sectoin-what">
         <div class="container">
           <h2 class="secthh list">What are we doing</h2>
           <ul class="list whatarewedoing">
@@ -166,9 +238,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Section 4 -->
-      <section class="sectionteam section">
+      <!-- <section class="sectionteam section">
         <div class="container">
           <h2 class="secthh list">Our Team</h2>
           <ul class="list whatarewedoing">
@@ -344,9 +416,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--Section customers-->
-      <section class="section sec">
+      <!-- <section class="section sec">
         <div class="container">
           <h2 class="secthh list customer">Customers</h2>
           <ul class="list customer-sec">
@@ -394,9 +466,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="end">
+    <!-- <footer class="end">
       <div class="container sec-footer">
         <div class="footer-logo-wrapper">
           <a class="logo link footer-logo" href="./index.html"
@@ -544,6 +616,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
